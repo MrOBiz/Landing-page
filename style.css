@@ -9,6 +9,19 @@ body{
 
 .hero{
     background-color: #1f2937;
+    display: flex;
+    flex-direction: column;   
+}
+
+h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+p{
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 header{
@@ -22,6 +35,12 @@ header{
 .right{
     display: flex;
     gap: 30px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer{
