@@ -67,21 +67,18 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-grow: 0.25;
 }
 
 .quote{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-grow: 0.25;
 }
 
 .cta{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-grow: 0.25;
 }
 
 footer{
