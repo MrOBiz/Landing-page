@@ -8,6 +8,7 @@ body{
     height: 100vh;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0;
 }
 
 .hero{
@@ -20,6 +21,10 @@ h1{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+}
+
+h3{
+    color: #E5E7EB;
 }
 
 p{
@@ -60,25 +65,61 @@ header{
     justify-content: center;
     align-items: center;
     padding: 30px;
-    flex-grow: 0.25;
+    height: 300px;
 }
 
-.images{
+.images-section{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.img{
+    display: flex;
+    gap: 20px;
+}
+
+.cap{
+    display: flex;
+    width: 40px;
+    gap: 50px;
+    justify-content: left;
 }
 
 .quote{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:#E5E7EB;
+    font-size: 36px;
+    font-weight: 300;
+    height: 300px;
+}
+
+#sen{
+    color: #1f2937;
+}
+
+#auth{
+    color: #1f2937;
+    font-weight: 800;
 }
 
 .cta{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #3882F6;
+    margin: 30px 250px;
+    padding: 50px;
+    border-radius: 25px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
 }
 
 footer{
