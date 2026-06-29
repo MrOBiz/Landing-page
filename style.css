@@ -92,6 +92,7 @@ header{
 
 .quote{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color:#E5E7EB;
